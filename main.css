@@ -1,0 +1,63 @@
+*
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+    background-color: red;
+    transition-property: background-color;
+    transition-duration: 5s;
+}
+.red:hover{
+    background-color: aqua;
+}
+
+.blue{
+    background-color: blue;
+    margin-bottom: 30px;
+}
+
+.enlace{
+    padding: 15px 30px;
+    border: 1px solid black;
+    background-color:darkgreen ;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-size: 12px;
+
+}
+
+.enlace:hover{
+    padding:20px 35px;
+    color: red;
+    font-size: 18px;
+
+}
+
+.button:hover{
+    padding: 15px 30px;
+    border: 1px solid black;
+    background-color:darkgreen ;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+input{
+    font-size: 20px;
+    background-color: indigo;
+}
+
+input:hover{
+background-color: green;
+}
+
+input:focus{
+    background-color: pink;
+}
+
